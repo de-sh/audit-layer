@@ -1,6 +1,6 @@
 # AuditLayer
 
-`AuditLayer` is a Rust library providing a structured logging layer that integrates with the `tracing` ecosystem. This layer captures auditable events and sends them to a specified HTTP endpoint, supporting centralized logging and monitoring systems.
+`AuditLayer` is a Rust library providing a structured logging layer that integrates with the `tracing` ecosystem. This layer captures auditable events(any trace with `audit = true`) and sends them to a specified HTTP endpoint, supporting centralized logging and monitoring systems.
 Features
 - Seamless integration with `tracing`: Automatically logs auditable events from your application's spans and events.
 - HTTP Delivery: Pushes logs over HTTP using the `reqwest` client.
