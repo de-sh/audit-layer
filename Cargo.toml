@@ -1,5 +1,10 @@
 [package]
 name = "audit-layer"
+description = "A tracing Layer that pushes specific log lines to an audit_log over HTTP"
+authors = ["Devdutt Shenoi <devdutt@outlook.in>"]
+license-file = "LICENSE"
+repository = "https://github.com/de-sh/audit-layer"
+keywords = ["tracing", "logging", "audit-logging"]
 version = "0.1.0"
 edition = "2021"
 
